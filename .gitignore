@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/AssetManagment/.vs
+/AssetManagment/AssetManagment/bin/Debug/net8.0
+/AssetManagment/AssetManagment/obj
+/AssetManagment/DataAccess/DataAccess/bin/Debug/net8.0
+/AssetManagment/DataAccess/DataAccess/obj
+/AssetManagment/SQLDb/AssetManagement/bin/Debug
+/AssetManagment/SQLDb/AssetManagement/obj/Debug
