@@ -59,6 +59,7 @@
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
     <Folder Include="StoredProcedures" />
+    <Folder Include="PostDeploymentScript" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\User.sql" />
@@ -67,9 +68,16 @@
     <Build Include="StoredProcedures\spUser_Delete.sql" />
     <Build Include="StoredProcedures\spUser_Update.sql" />
     <Build Include="StoredProcedures\spUser_Insert.sql" />
+    <Build Include="dbo\Tables\Roles.sql" />
+    <Build Include="StoredProcedures\spRole_GetAll.sql" />
+    <Build Include="StoredProcedures\spRole_Get.sql" />
+    <Build Include="StoredProcedures\spRole_Delete.sql" />
+    <Build Include="StoredProcedures\spRole_Insert.sql" />
+    <Build Include="StoredProcedures\spRole_Update.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Script.PostDeployment.sql" />
+    <None Include="PostDeploymentScript\Script.UserPostDeployment.sql" />
+    <None Include="PostDeploymentScript\Script.RolesPostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AssetManagement.publish.xml" />
