@@ -87,7 +87,4 @@
   <ItemGroup>
     <None Include="AssetManagement.publish.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="AssetManagement.refactorlog" />
-  </ItemGroup>
 </Project>
