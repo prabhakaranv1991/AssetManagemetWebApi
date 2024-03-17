@@ -60,20 +60,23 @@
     <Folder Include="dbo\Tables" />
     <Folder Include="StoredProcedures" />
     <Folder Include="PostDeploymentScript" />
+    <Folder Include="StoredProcedures\Roles" />
+    <Folder Include="StoredProcedures\User" />
+    <Folder Include="StoredProcedures\Asset" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\User.sql" />
-    <Build Include="StoredProcedures\spUser_GetAll.sql" />
-    <Build Include="StoredProcedures\spUser_Get.sql" />
-    <Build Include="StoredProcedures\spUser_Delete.sql" />
-    <Build Include="StoredProcedures\spUser_Update.sql" />
-    <Build Include="StoredProcedures\spUser_Insert.sql" />
     <Build Include="dbo\Tables\Roles.sql" />
-    <Build Include="StoredProcedures\spRole_GetAll.sql" />
-    <Build Include="StoredProcedures\spRole_Get.sql" />
-    <Build Include="StoredProcedures\spRole_Delete.sql" />
-    <Build Include="StoredProcedures\spRole_Insert.sql" />
-    <Build Include="StoredProcedures\spRole_Update.sql" />
+    <Build Include="StoredProcedures\Roles\spRole_Delete.sql" />
+    <Build Include="StoredProcedures\Roles\spRole_Get.sql" />
+    <Build Include="StoredProcedures\Roles\spRole_GetAll.sql" />
+    <Build Include="StoredProcedures\Roles\spRole_Insert.sql" />
+    <Build Include="StoredProcedures\Roles\spRole_Update.sql" />
+    <Build Include="StoredProcedures\User\spUser_Delete.sql" />
+    <Build Include="StoredProcedures\User\spUser_Get.sql" />
+    <Build Include="StoredProcedures\User\spUser_GetAll.sql" />
+    <Build Include="StoredProcedures\User\spUser_Insert.sql" />
+    <Build Include="StoredProcedures\User\spUser_Update.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PostDeploymentScript\Script.UserPostDeployment.sql" />

@@ -10,3 +10,5 @@
 /AssetManagment/DataAccess/DataAccess/obj
 /AssetManagment/SQLDb/AssetManagement/bin/Debug
 /AssetManagment/SQLDb/AssetManagement/obj/Debug
+/AssetManagment/SQLDb/AssetManagement/AssetManagement.dbmdl
+/AssetManagment/SQLDb/AssetManagement/AssetManagement.jfm
