@@ -63,6 +63,7 @@
     <Folder Include="StoredProcedures\Roles" />
     <Folder Include="StoredProcedures\User" />
     <Folder Include="StoredProcedures\Asset" />
+    <Folder Include="StoredProcedures\TimeSheet" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\User.sql" />
@@ -79,6 +80,16 @@
     <Build Include="StoredProcedures\User\spUser_Update.sql" />
     <Build Include="dbo\Tables\Asset.sql" />
     <Build Include="dbo\Tables\TimeSheet.sql" />
+    <Build Include="StoredProcedures\Asset\spAsset_Delete.sql" />
+    <Build Include="StoredProcedures\Asset\spAsset_Get.sql" />
+    <Build Include="StoredProcedures\Asset\spAsset_GetAll.sql" />
+    <Build Include="StoredProcedures\Asset\spAsset_Insert.sql" />
+    <Build Include="StoredProcedures\Asset\spAsset_Update.sql" />
+    <Build Include="StoredProcedures\TimeSheet\spTimeSheet_Delete.sql" />
+    <Build Include="StoredProcedures\TimeSheet\spTimeSheet_Get.sql" />
+    <Build Include="StoredProcedures\TimeSheet\spTimeSheet_GetAll.sql" />
+    <Build Include="StoredProcedures\TimeSheet\spTimeSheet_Insert.sql" />
+    <Build Include="StoredProcedures\TimeSheet\spTimeSheet_Update.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PostDeploymentScript\Script.UserPostDeployment.sql" />

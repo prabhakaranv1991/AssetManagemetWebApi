@@ -24,6 +24,9 @@ builder.Services.AddCors(
 builder.Services.AddSingleton<IDataAccessServices, DataAccessServices>();
 builder.Services.AddSingleton<IUserServices,  UserServices>();
 builder.Services.AddSingleton<IRolesServices, RolesServices>();
+builder.Services.AddSingleton<IAssetServices, AssetServices>();
+builder.Services.AddSingleton<ITimeSheetServices, TimeSheetServices>();
+
 
 var app = builder.Build();
 
